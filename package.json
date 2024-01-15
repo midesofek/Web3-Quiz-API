@@ -1,0 +1,37 @@
+{
+  "name": "web3-quiz-api",
+  "version": "1.0.0",
+  "description": "A full scale api for building authenticated web3 quiz applications, built with Javascript, Nodejs, Express and MongoDB",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/midesofek/Web3-Quiz-API.git"
+  },
+  "keywords": [
+    "web3",
+    "quiz",
+    "nodejs",
+    "javascript",
+    "mongodb",
+    "mongoose",
+    "quiz",
+    "API"
+  ],
+  "author": "Mide Sofek",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/midesofek/Web3-Quiz-API/issues"
+  },
+  "homepage": "https://github.com/midesofek/Web3-Quiz-API#readme",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "mongoose": "^8.0.4",
+    "morgan": "^1.10.0",
+    "validator": "^13.11.0"
+  }
+}
