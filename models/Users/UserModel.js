@@ -206,6 +206,20 @@ UserSchema.pre("save", async function (next) {
   next();
 });
 
+/**
+ * /// adding the instance method ///
+ * This is the instance method (down below)
+ * @param {*} candidatePassword is the password the user is entering
+ * @param {*} userPassword is the user's encrypted password in the database
+ * @returns {boolean} true or false
+ */
+UserSchema.methods.comparePassword = async function (
+  candidatePassword,
+  userPassword
+) {
+  return await bcrypt.compare(candidatePassword, userPassword);
+};
+
 const User = mongoose.model("User", UserSchema);
 
 module.exports = User;
