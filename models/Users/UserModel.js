@@ -42,6 +42,8 @@ const UserSchema = new mongoose.Schema({
     type: String,
     required: [true, "Please enter your password"],
     // removes password from query results
+    // N.B: This only works when selecting (e.g. using find)
+    // N.B: the password field will still show when the document is first created
     select: false,
   },
 
