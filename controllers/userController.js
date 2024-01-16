@@ -1,13 +1,13 @@
-const Tour = require("../models/Users/UserModel");
+const User = require("../models/Users/UserModel");
 
 exports.createUser = async function (req, res) {
   try {
-    const newTour = await Tour.create(req.body);
+    const newUser = await User.create(req.body);
 
     res.status(201).json({
       status: "success",
       data: {
-        tour: newTour,
+        user: newUser,
       },
     });
   } catch (error) {
@@ -32,11 +32,23 @@ exports.deleteUser = (req, res) => {
   });
 };
 
-exports.getAllUsers = (req, res) => {
-  res.status(500).json({
-    status: "error",
-    message: "This route is not yet defined!",
-  });
+exports.getAllUsers = async (req, res) => {
+  try {
+    const users = await User.find();
+
+    res.status(200).json({
+      status: "success",
+      results: users.length,
+      data: {
+        users,
+      },
+    });
+  } catch (error) {
+    res.status(500).json({
+      status: "error",
+      message: "This route is not yet defined!",
+    });
+  }
 };
 
 exports.getUser = (req, res) => {
