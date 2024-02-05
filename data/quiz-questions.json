@@ -1,0 +1,218 @@
+[
+  {
+    "questionId": 1,
+    "question": "What is the maximum supply of Bitcoin?",
+    "options": [
+      "a) 21 million",
+      "b) 1 million",
+      "c) 10 million",
+      "d) 50 million"
+    ],
+    "correctOption": 0
+  },
+  {
+    "questionId": 2,
+    "question": "Who is the pseudonymous creator of Bitcoin?",
+    "options": [
+      "a) Vitalik Buterin",
+      "b) Charlie Lee",
+      "c) Satoshi Nakamoto",
+      "d) Roger Ver"
+    ],
+    "correctOption": 2
+  },
+  {
+    "questionId": 3,
+    "question": "Which cryptocurrency is often referred to as 'the Ethereum killer'?",
+    "options": [
+      "a) Ripple (XRP)",
+      "b) Cardano (ADA)",
+      "c) Polkadot (DOT)",
+      "d) Chainlink (LINK)"
+    ],
+    "correctOption": 2
+  },
+  {
+    "questionId": 4,
+    "question": "Which blockchain project focuses on achieving interoperability between different blockchains?",
+    "options": [
+      "a) Stellar (XLM)",
+      "b) Cosmos (ATOM)",
+      "c) NEO (NEO)",
+      "d) VeChain (VET)"
+    ],
+    "correctOption": 1
+  },
+
+  {
+    "questionId": 5,
+    "question": "What is the main purpose of a blockchain?",
+    "options": [
+      "a) Decentralization",
+      "b) Centralization",
+      "c) Monetization",
+      "d) Virtualization"
+    ],
+    "correctOption": 0
+  },
+  {
+    "questionId": 6,
+    "question": "What is a hardware security module (HSM) commonly used for in the context of cryptocurrency?",
+    "options": [
+      "a) Storing private keys offline",
+      "b) Enhancing network security",
+      "c) Running smart contracts",
+      "d) Conducting decentralized voting"
+    ],
+    "correctOption": 0
+  },
+  {
+    "questionId": 7,
+    "question": "Explain the difference between a hot wallet and a cold wallet.",
+    "options": [
+      "a) Hot wallets are connected to the internet, while cold wallets are offline.",
+      "b) Hot wallets store physical coins, while cold wallets store digital assets.",
+      "c) Hot wallets require a password, while cold wallets use biometric authentication."
+    ],
+    "correctOption": 0
+  },
+  {
+    "questionId": 8,
+    "question": "What is the purpose of a decentralized exchange (DEX)?",
+    "options": [
+      "a) Faster transactions",
+      "b) Increased security",
+      "c) Peer-to-peer trading without intermediaries",
+      "d) Higher liquidity"
+    ],
+    "correctOption": 2
+  },
+  {
+    "questionId": 9,
+    "question": "What does NFT stand for, and how are they used in the crypto space?",
+    "options": [
+      "a) New Financial Technology, trading",
+      "b) Non-Fungible Token, representing ownership of digital assets",
+      "c) Next-Gen Fund Transfer, decentralized finance",
+      "d) Native File Transfer, secure data storage"
+    ],
+    "correctOption": 1
+  },
+  {
+    "questionId": 10,
+    "question": "Name a popular NFT marketplace.",
+    "options": [
+      "a) OpenSea",
+      "b) Rarible",
+      "c) NBA Top Shot",
+      "d) All of the above"
+    ],
+    "correctOption": 3
+  },
+  {
+    "questionId": 11,
+    "question": "Which blockchain is primarily associated with the development of smart contracts?",
+    "options": ["a) Bitcoin", "b) Ethereum", "c) Ripple", "d) Litecoin"],
+    "correctOption": 1
+  },
+  {
+    "questionId": 12,
+    "question": "Give an example of a real-world use case for smart contracts.",
+    "options": [
+      "a) Supply chain management",
+      "b) Token creation",
+      "c) Identity verification",
+      "d) All of the above"
+    ],
+    "correctOption": 3
+  },
+  {
+    "questionId": 13,
+    "question": "In which country was the first cryptocurrency regulatory framework implemented?",
+    "options": [
+      "a) United States",
+      "b) Japan",
+      "c) Switzerland",
+      "d) South Korea"
+    ],
+    "correctOption": 1
+  },
+  {
+    "questionId": 14,
+    "question": "What does 'FUD' stand for in the crypto community?",
+    "options": [
+      "a) Fear, Uncertainty, Doubt",
+      "b) Fully Understood Details",
+      "c) Fast Utility Drive",
+      "d) Financial Understanding Database"
+    ],
+    "correctOption": 0
+  },
+  {
+    "questionId": 15,
+    "question": "Who is known as the 'Bitcoin Jesus' and is a prominent early Bitcoin investor?",
+    "options": [
+      "a) Andreas Antonopoulos",
+      "b) Roger Ver",
+      "c) Charlie Lee",
+      "d) Brian Armstrong"
+    ],
+    "correctOption": 1
+  },
+  {
+    "questionId": 16,
+    "question": "What is the primary purpose of the Ethereum 2.0 upgrade?",
+    "options": [
+      "a) Enhanced privacy features",
+      "b) Increased block size",
+      "c) Improved scalability through proof-of-stake",
+      "d) Introduction of smart contracts"
+    ],
+    "correctOption": 2
+  },
+  {
+    "questionId": 17,
+    "question": "What is the concept of 'pump and dump' in the context of cryptocurrency trading?",
+    "options": [
+      "a) Alpha whale",
+      "b) A gradual and steady rise in price",
+      "c) Long-term stable growth",
+      "d) A sudden market crash",
+      "e) A rapid increase in price followed by a rapid decrease"
+    ],
+    "correctOption": 4
+  },
+  {
+    "questionId": 18,
+    "question": "Which blockchain network is specifically designed for gaming and virtual goods?",
+    "options": [
+      "a) Polygon (MATIC)",
+      "b) Tron (TRX)",
+      "c) Enjin (ENJ)",
+      "d) Tezos (XTZ)"
+    ],
+    "correctOption": 2
+  },
+  {
+    "questionId": 19,
+    "question": "What is the term used for the process of converting traditional assets into digital tokens on a blockchain?",
+    "options": [
+      "a) Tokenization",
+      "b) Digitalization",
+      "c) Tokenomics",
+      "d) Cryptonization"
+    ],
+    "correctOption": 0
+  },
+  {
+    "questionId": 20,
+    "question": "Which popular musician released an NFT collection called 'Kings of Leon - When You See Yourself'?",
+    "options": [
+      "a) Kanye West",
+      "b) Taylor Swift",
+      "c) Justin Bieber",
+      "d) Kings of Leon"
+    ],
+    "correctOption": 3
+  }
+]
