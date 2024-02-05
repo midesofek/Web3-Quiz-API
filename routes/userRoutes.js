@@ -2,19 +2,19 @@ const { Router } = require("express");
 const userController = require("../controllers/userController");
 const authController = require("../controllers/authController");
 
-const greet = async (req, res) => {
-  try {
-    res.status(201).json({
-      status: "success",
-      data: "Hola!",
-    });
-  } catch (error) {
-    res.status(400).json({
-      status: "fail",
-      data: err,
-    });
-  }
-};
+// const greet = async (req, res) => {
+//   try {
+//     res.status(201).json({
+//       status: "success",
+//       data: "Hola!",
+//     });
+//   } catch (error) {
+//     res.status(400).json({
+//       status: "fail",
+//       data: err,
+//     });
+//   }
+// };
 
 const router = Router();
 
