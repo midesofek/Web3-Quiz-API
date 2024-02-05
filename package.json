@@ -4,7 +4,8 @@
   "description": "A full scale api for building authenticated web3 quiz applications, built with Javascript, Nodejs, Express and MongoDB",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon server.js"
+    "start": "nodemon server.js",
+    "debug": "ndb server.js"
   },
   "repository": {
     "type": "git",
