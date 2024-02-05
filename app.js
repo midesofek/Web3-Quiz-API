@@ -3,6 +3,7 @@ const morgan = require("morgan");
 
 // const tourRouter = require("./routes/tourRoutes");
 const userRouter = require("./routes/userRoutes");
+const questionsRouter = require("./routes/questionRoutes");
 
 const app = express();
 
@@ -10,6 +11,13 @@ const app = express();
 if (process.env.NODE_ENV === "development") {
   app.use(morgan("dev"));
 }
+
+const handleUnhandledRouter = (req, res, next) => {
+  res.status(404).json({
+    status: "fail",
+    message: `Can't find ${req.originalUrl} on this server!`,
+  });
+};
 
 /**
  * The express. json() function is a middleware function used in Express.js apps to parse
@@ -29,5 +37,9 @@ app.use((req, res, next) => {
 
 // 3) ROUTES
 app.use("/api/v1/users", userRouter);
+app.use("/api/v1/questions", questionsRouter);
+
+// 4) HANDLE UNHANDLED ROUTES
+app.all("*", handleUnhandledRouter);
 
 module.exports = app;
